@@ -1,9 +1,9 @@
-﻿Log file open, 06/13/17 00:03:33
+﻿Log file open, 06/21/17 23:54:26
 LogInit:Display: Running engine for game: BlackHole
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(757733338) SRandInit(757733340).
+LogInit:Display: RandInit(-2022978889) SRandInit(-2022978886).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.205985
+LogStats: Stats thread started at 2.162890
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -44,434 +44,634 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.13-07.03.34:263][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.13-07.03.34:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.13-07.03.34:352][  0]LogInit: Computer: GODLIKESYSTEM
-[2017.06.13-07.03.34:352][  0]LogInit: User: Demonic
-[2017.06.13-07.03.34:352][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.06.13-07.03.34:352][  0]LogInit: High frequency timer resolution =3.312861 MHz
-[2017.06.13-07.03.34:352][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.06.13-07.03.34:352][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.13-07.03.34:352][  0]LogMemory: Process Physical Memory: 192.76 MB used, 192.76 MB peak
-[2017.06.13-07.03.34:352][  0]LogMemory: Process Virtual Memory: 197.84 MB used, 197.84 MB peak
-[2017.06.13-07.03.34:352][  0]LogMemory: Physical Memory: 2947.86 MB used, 8174.04 MB total
-[2017.06.13-07.03.34:352][  0]LogMemory: Virtual Memory: 522.69 MB used, 8388608.00 MB total
-[2017.06.13-07.03.35:549][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.06.13-07.03.36:563][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.13-07.03.36:666][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 440' (Feature Level 11_0)
-[2017.06.13-07.03.36:666][  0]LogD3D11RHI:       1489/0/2559 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.06.13-07.03.36:666][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.13-07.03.36:671][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.13-07.03.36:671][  0]LogD3D11RHI:     GPU DeviceId: 0xdc0 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.13-07.03.36:671][  0]LogWindows: EnumDisplayDevices:
-[2017.06.13-07.03.36:672][  0]LogWindows:    0. 'NVIDIA GeForce GT 440' (P:1 D:1)
-[2017.06.13-07.03.36:672][  0]LogWindows:    1. 'NVIDIA GeForce GT 440' (P:0 D:0)
-[2017.06.13-07.03.36:672][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
-[2017.06.13-07.03.36:672][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.06.13-07.03.36:672][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.06.13-07.03.36:672][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
-[2017.06.13-07.03.36:672][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 440
-[2017.06.13-07.03.36:672][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
-[2017.06.13-07.03.36:672][  0]LogD3D11RHI:      Driver Date: 3-21-2016
-[2017.06.13-07.03.36:672][  0]LogRHI: Texture pool is 1042 MB (70% of 1489 MB)
-[2017.06.13-07.03.36:689][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.13-07.03.36:704][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.06.13-07.03.36:704][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (../../../../../../Users/Demonic/Desktop/Blackhole/Intermediate/Shaders/WorkingDirectory/3268/).
-[2017.06.13-07.03.36:704][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Demonic/AppData/Local/Temp/UnrealShaderWorkingDir/ECA7A36E4F219485940377AC6EB1908C/'.
-[2017.06.13-07.03.36:704][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.13-07.03.40:910][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.13-07.03.40:951][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.13-07.03.40:978][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.13-07.03.41:011][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.13-07.03.41:045][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.13-07.03.41:080][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.13-07.03.41:114][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.13-07.03.41:141][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.13-07.03.41:198][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.13-07.03.41:258][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.13-07.03.41:308][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.13-07.03.41:409][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.13-07.03.41:409][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.13-07.03.41:451][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.13-07.03.41:558][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.13-07.03.41:600][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.13-07.03.41:635][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.13-07.03.41:663][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.13-07.03.41:706][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.13-07.03.41:706][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.13-07.03.42:713][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.13-07.03.43:373][  0]LogDerivedDataCache: Loaded boot cache 0.66s 48MB C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.06.13-07.03.43:373][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2017.06.13-07.03.43:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Demonic/Desktop/Blackhole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.13-07.03.43:373][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.13-07.03.43:373][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Demonic/Desktop/Blackhole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.13-07.03.43:373][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.13-07.03.43:431][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.13-07.03.43:445][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Demonic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.13-07.03.47:741][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.13-07.03.47:798][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.13-07.03.48:825][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.06.13-07.03.48:825][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.13-07.03.48:825][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.06.13-07.03.52:099][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
-[2017.06.13-07.03.52:244][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.121794 seconds
-[2017.06.13-07.03.52:248][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2017.06.13-07.03.52:248][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2017.06.13-07.03.52:248][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.13-07.03.52:356][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.13-07.03.56:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.13-07.03.56:840][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.13-07.04.16:499][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.13-07.04.17:694][  0]SourceControl: Info Source control is disabled
-[2017.06.13-07.04.17:703][  0]SourceControl: Info Source control is disabled
-[2017.06.13-07.04.17:773][  0]SourceControl: Info Source control is disabled
-[2017.06.13-07.04.17:836][  0]SourceControl: Info Source control is disabled
-[2017.06.13-07.04.18:256][  0]LogLinker:Warning: Can't find file '/Game/TopDownCPP/TopDownOverview'
-[2017.06.13-07.04.18:256][  0]LogLinker:Warning: Can't find file '/Game/TopDownCPP/TopDownOverview'
-[2017.06.13-07.04.18:256][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownCPP/TopDownOverview.TopDownOverview_C'
-[2017.06.13-07.04.18:933][  0]LogEngine: Initializing Engine...
-[2017.06.13-07.04.18:963][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.06.13-07.04.18:966][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.06.13-07.04.19:563][  0]LogAIModule: Creating AISystem for world NewWorld
-[2017.06.13-07.04.19:626][  0]LogInit: XAudio2 using 'Speakers (USB  AUDIO  )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.13-07.04.19:685][  0]LogInit: FAudioDevice initialized.
-[2017.06.13-07.04.19:709][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.06.13-07.04.19:716][  0]LogInit: Texture streaming: Enabled
-[2017.06.13-07.04.19:945][  0]LogInit: Transaction tracking system initialized
-[2017.06.13-07.04.20:149][  0]BlueprintLog: New page: Editor Load
-[2017.06.13-07.04.21:075][  0]LocalizationService: Info Localization service is disabled
-[2017.06.13-07.04.21:976][  0]LogConsoleResponse:Display: 
-[2017.06.13-07.04.23:925][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2017.06.13-07.04.23:925][  0]LogCook:Display: Mobile HDR setting 0
-[2017.06.13-07.04.24:024][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Content/' took 0.02s
-[2017.06.13-07.04.25:665][  0]SourceControl: Info Source control is disabled
-[2017.06.13-07.04.25:665][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/BMaps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.13-07.04.25:733][  0]LightingResults: New page: Lighting Build
-[2017.06.13-07.04.25:736][  0]MapCheck: New page: Map Check
-[2017.06.13-07.04.25:736][  0]LightingResults: New page: Lighting Build
-[2017.06.13-07.04.31:116][  0]LogAIModule: Creating AISystem for world Map1
-[2017.06.13-07.04.31:474][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.13-07.04.31:541][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.13-07.04.31:587][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.435ms to complete.
-[2017.06.13-07.04.31:587][  0]LogFileHelpers: Loading map 'Map1' took 5.922
-[2017.06.13-07.04.31:837][  0]LogCollectionManager: Loaded 0 collections in 0.001763 seconds
-[2017.06.13-07.04.31:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Saved/Collections/' took 0.01s
-[2017.06.13-07.04.31:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Content/Developers/Demonic/Collections/' took 0.01s
-[2017.06.13-07.04.31:885][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Content/Collections/' took 0.01s
-[2017.06.13-07.04.31:885][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.06.13-07.04.31:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2047 classes and 369 folders.
-[2017.06.13-07.04.31:897][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.13-07.04.31:897][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.13-07.04.31:898][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
-[2017.06.13-07.04.31:902][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2017.06.13-07.04.33:471][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.06.13-07.04.33:523][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.06.13-07.04.33:621][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.13-07.04.33:625][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.13-07.04.33:705][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.06.13-07.04.33:706][  0]LogLoad: Full Startup: 63.79 seconds (BP compile: 0.36 seconds)
-[2017.06.13-07.04.33:706][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.13-07.04.33:706][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.13-07.04.33:728][  0]LogOcInput: OculusInput pre-init called
-[2017.06.13-07.04.33:757][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.13-07.04.34:354][  0]LogRenderer: Reallocating scene render targets to support 1064x576 (Frame:2).
-[2017.06.13-07.04.34:417][  1]LogAssetRegistry: Asset discovery search completed in 42.3417 seconds
-[2017.06.13-07.04.34:417][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.06.13-07.04.34:417][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
-[2017.06.13-07.04.42:943][540]LogWindows: LaunchURL http://answers.unrealengine.com
-[2017.06.13-07.07.09:914][ 63]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0004 seconds. Added 2 classes and 2 folders.
-[2017.06.13-07.07.36:989][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Enemies/Rocket_Trail" FILE="../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Enemies/Rocket_Trail.uasset" SILENT=true
-[2017.06.13-07.07.37:069][859]LogSavePackage: Save=43.44ms
-[2017.06.13-07.07.37:069][859]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/Blackhole/Saved/Rocket_TrailE64941FC45F624E7C338CDB37C46DAF1.tmp' to '../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Enemies/Rocket_Trail.uasset'
-[2017.06.13-07.07.37:077][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Enemies/Rocket_Trail.uasset
-[2017.06.13-07.07.39:369][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
-[2017.06.13-07.07.39:369][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.13-07.07.39:391][948]PIE: New page: PIE session: Map1 (Jun 12, 2017, 4:07:39 PM)
-[2017.06.13-07.07.39:391][948]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
-[2017.06.13-07.07.39:419][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028479s)
-[2017.06.13-07.07.39:420][948]LogAIModule: Creating AISystem for world Map1
-[2017.06.13-07.07.39:421][948]LogPlayLevel: PIE: World Init took: (0.001232s)
-[2017.06.13-07.07.39:421][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.030114s)
-[2017.06.13-07.07.39:456][948]LogInit: XAudio2 using 'Speakers (USB  AUDIO  )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.13-07.07.39:474][948]LogInit: FAudioDevice initialized.
-[2017.06.13-07.07.39:603][948]LogWorld: Game class is 'TopDownGameMode_C'
-[2017.06.13-07.07.39:607][948]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.13-00.07.39
-[2017.06.13-07.07.39:607][948]LogWorld: Bringing up level for play took: 0.003255
-[2017.06.13-07.07.39:612][948]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.06.13-07.07.39:613][948]PIE: Info Play in editor start time for /Game/Blackhole/BMaps/UEDPIE_0_Map1 0.108
-[2017.06.13-07.07.39:613][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
-[2017.06.13-07.08.04:247][101]LogBlueprintUserMessages: [BlackHolePlayer_254] You got a new high score of
-[2017.06.13-07.08.04:247][101]LogBlueprintUserMessages: [BlackHolePlayer_254] 120
-[2017.06.13-07.08.10:274][379]LogNet: Browse: /Game/Blackhole/BMaps/Map1
-[2017.06.13-07.08.10:295][379]LogLoad: LoadMap: /Game/Blackhole/BMaps/Map1
-[2017.06.13-07.08.10:312][379]Cmd: MEM
-[2017.06.13-07.08.10:320][379]LogMemory: Platform Memory Stats for Windows
-[2017.06.13-07.08.10:320][379]LogMemory: Process Physical Memory: 898.82 MB used, 902.13 MB peak
-[2017.06.13-07.08.10:320][379]LogMemory: Process Virtual Memory: 1549.02 MB used, 1551.22 MB peak
-[2017.06.13-07.08.10:320][379]LogMemory: Physical Memory: 4099.87 MB used, 8174.04 MB total
-[2017.06.13-07.08.10:320][379]LogMemory: Virtual Memory: 2209.13 MB used, 8388608.00 MB total
-[2017.06.13-07.08.10:320][379]LogMemory: 
-[2017.06.13-07.08.10:320][379]Allocator Stats for TBB: (not implemented)
-[2017.06.13-07.08.10:320][379]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
-[2017.06.13-07.08.10:342][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021564s)
-[2017.06.13-07.08.10:343][379]LogAIModule: Creating AISystem for world Map1
-[2017.06.13-07.08.10:343][379]LogPlayLevel: PIE: World Init took: (0.000889s)
-[2017.06.13-07.08.10:343][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.022722s)
-[2017.06.13-07.08.10:343][379]LogWorld: Game class is 'TopDownGameMode_C'
-[2017.06.13-07.08.10:347][379]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.13-00.08.10
-[2017.06.13-07.08.10:347][379]LogWorld: Bringing up level for play took: 0.003162
-[2017.06.13-07.08.10:349][379]LogLoad: Took 0.054438 seconds to LoadMap(/Game/Blackhole/BMaps/UEDPIE_0_Map1)
-[2017.06.13-07.09.24:390][744]LogBlueprintUserMessages: [BlackHolePlayer_254] You got a new high score of
-[2017.06.13-07.09.24:390][744]LogBlueprintUserMessages: [BlackHolePlayer_254] 22900
-[2017.06.13-07.09.30:427][ 18]LogNet: Browse: /Game/Blackhole/BMaps/Map1
-[2017.06.13-07.09.30:452][ 18]LogLoad: LoadMap: /Game/Blackhole/BMaps/Map1
-[2017.06.13-07.09.30:468][ 18]Cmd: MEM
-[2017.06.13-07.09.30:478][ 18]LogMemory: Platform Memory Stats for Windows
-[2017.06.13-07.09.30:478][ 18]LogMemory: Process Physical Memory: 896.55 MB used, 915.07 MB peak
-[2017.06.13-07.09.30:478][ 18]LogMemory: Process Virtual Memory: 1483.34 MB used, 1643.64 MB peak
-[2017.06.13-07.09.30:478][ 18]LogMemory: Physical Memory: 4064.08 MB used, 8174.04 MB total
-[2017.06.13-07.09.30:478][ 18]LogMemory: Virtual Memory: 2142.43 MB used, 8388608.00 MB total
-[2017.06.13-07.09.30:478][ 18]LogMemory: 
-[2017.06.13-07.09.30:478][ 18]Allocator Stats for TBB: (not implemented)
-[2017.06.13-07.09.30:478][ 18]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
-[2017.06.13-07.09.30:498][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019998s)
-[2017.06.13-07.09.30:499][ 18]LogAIModule: Creating AISystem for world Map1
-[2017.06.13-07.09.30:499][ 18]LogPlayLevel: PIE: World Init took: (0.000951s)
-[2017.06.13-07.09.30:499][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.021212s)
-[2017.06.13-07.09.30:499][ 18]LogWorld: Game class is 'TopDownGameMode_C'
-[2017.06.13-07.09.30:503][ 18]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.13-00.09.30
-[2017.06.13-07.09.30:503][ 18]LogWorld: Bringing up level for play took: 0.003197
-[2017.06.13-07.09.30:505][ 18]LogLoad: Took 0.053186 seconds to LoadMap(/Game/Blackhole/BMaps/UEDPIE_0_Map1)
-[2017.06.13-07.09.34:158][185]LogBlueprintUserMessages: [GameMenu_C_2] 22900
-[2017.06.13-07.09.36:019][273]LogBlueprintUserMessages: [GameMenu_C_2] 22900
-[2017.06.13-07.09.36:251][284]LogBlueprintUserMessages: [GameMenu_C_2] 22900
-[2017.06.13-07.09.36:441][293]LogBlueprintUserMessages: [GameMenu_C_2] 22900
-[2017.06.13-07.09.47:794][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
-[2017.06.13-07.09.47:892][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
-[2017.06.13-07.09.55:730][171]LogCascade: Quitting Cascade. FXSystem=0x0000000023852980
-[2017.06.13-07.09.56:023][172]Cmd: QUIT_EDITOR
-[2017.06.13-07.09.56:130][172]LogExit: Preparing to exit.
-[2017.06.13-07.09.56:663][172]LogExit: Editor shut down
-[2017.06.13-07.09.56:664][172]LogExit: Transaction tracking system shut down
-[2017.06.13-07.09.56:772][172]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.13-07.09.56:772][172]LogExit: Object subsystem successfully closed.
-[2017.06.13-07.09.56:791][172]LogD3D11RHI: Shutdown
-[2017.06.13-07.09.56:791][172]LogD3D11RHI: CleanupD3DDevice
-[2017.06.13-07.09.56:843][172]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module DistCurveEditor (215)
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module Cascade (214)
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2017.06.13-07.09.56:888][172]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2017.06.13-07.09.56:889][172]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2017.06.13-07.09.56:889][172]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2017.06.13-07.09.56:889][172]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2017.06.13-07.09.56:889][172]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2017.06.13-07.09.56:889][172]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2017.06.13-07.09.56:889][172]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2017.06.13-07.09.56:890][172]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2017.06.13-07.09.57:688][172]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2017.06.13-07.09.57:689][172]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2017.06.13-07.09.57:689][172]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2017.06.13-07.09.57:689][172]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2017.06.13-07.09.57:689][172]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2017.06.13-07.09.57:689][172]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2017.06.13-07.09.57:689][172]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2017.06.13-07.09.57:689][172]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2017.06.13-07.09.57:739][172]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2017.06.13-07.09.57:849][172]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2017.06.13-07.09.57:850][172]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2017.06.13-07.09.57:851][172]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2017.06.13-07.09.57:851][172]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2017.06.13-07.09.57:851][172]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2017.06.13-07.09.57:852][172]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2017.06.13-07.09.57:852][172]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module Media (90)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2017.06.13-07.09.57:952][172]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2017.06.13-07.09.57:953][172]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2017.06.13-07.09.57:955][172]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2017.06.13-07.09.57:955][172]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2017.06.13-07.09.57:955][172]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2017.06.13-07.09.57:955][172]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2017.06.13-07.09.57:955][172]LogModuleManager: Shutting down and abandoning module Core (64)
-[2017.06.13-07.09.57:955][172]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2017.06.13-07.09.57:956][172]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2017.06.13-07.09.58:094][172]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2017.06.13-07.09.58:094][172]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2017.06.13-07.09.58:094][172]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2017.06.13-07.09.58:094][172]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2017.06.13-07.09.58:136][172]LogDerivedDataCache: Shutdown
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2017.06.13-07.09.58:136][172]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2017.06.13-07.09.58:137][172]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2017.06.13-07.10.02:153][172]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2017.06.13-07.10.02:153][172]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2017.06.13-07.10.02:153][172]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2017.06.13-07.10.02:153][172]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.06.13-07.10.02:154][172]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.06.13-07.10.02:154][172]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.06.13-07.10.02:154][172]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.06.13-07.10.02:155][172]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.06.13-07.10.02:156][172]LogExit: Exiting.
-[2017.06.13-07.10.02:158][172]Log file closed, 06/13/17 00:10:02
+[2017.06.22-06.54.27:349][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.22-06.54.27:349][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.22-06.54.27:409][  0]LogInit: Computer: GODLIKESYSTEM
+[2017.06.22-06.54.27:409][  0]LogInit: User: Demonic
+[2017.06.22-06.54.27:409][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.22-06.54.27:409][  0]LogInit: High frequency timer resolution =3.312841 MHz
+[2017.06.22-06.54.27:409][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.22-06.54.27:409][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.22-06.54.27:409][  0]LogMemory: Process Physical Memory: 192.78 MB used, 192.78 MB peak
+[2017.06.22-06.54.27:409][  0]LogMemory: Process Virtual Memory: 197.82 MB used, 197.82 MB peak
+[2017.06.22-06.54.27:409][  0]LogMemory: Physical Memory: 4778.12 MB used, 8174.04 MB total
+[2017.06.22-06.54.27:409][  0]LogMemory: Virtual Memory: 522.69 MB used, 8388608.00 MB total
+[2017.06.22-06.54.28:359][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.22-06.54.29:297][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.22-06.54.29:313][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 440' (Feature Level 11_0)
+[2017.06.22-06.54.29:313][  0]LogD3D11RHI:       1489/0/2559 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.22-06.54.29:313][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.22-06.54.29:317][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.22-06.54.29:317][  0]LogD3D11RHI:     GPU DeviceId: 0xdc0 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.22-06.54.29:317][  0]LogWindows: EnumDisplayDevices:
+[2017.06.22-06.54.29:317][  0]LogWindows:    0. 'NVIDIA GeForce GT 440' (P:1 D:1)
+[2017.06.22-06.54.29:350][  0]LogWindows:    1. 'NVIDIA GeForce GT 440' (P:0 D:0)
+[2017.06.22-06.54.29:350][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2017.06.22-06.54.29:351][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.06.22-06.54.29:351][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.06.22-06.54.29:351][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.06.22-06.54.29:351][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 440
+[2017.06.22-06.54.29:351][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
+[2017.06.22-06.54.29:351][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2017.06.22-06.54.29:351][  0]LogRHI: Texture pool is 1042 MB (70% of 1489 MB)
+[2017.06.22-06.54.29:359][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.22-06.54.29:508][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.22-06.54.29:516][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Users/Demonic/Desktop/Blackhole/Intermediate/Shaders/WorkingDirectory/12640/).
+[2017.06.22-06.54.29:516][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Demonic/AppData/Local/Temp/UnrealShaderWorkingDir/FDF1646C4FF77AED6BC4C6B4CA36C1D6/'.
+[2017.06.22-06.54.29:516][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.22-06.54.36:154][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.22-06.54.36:165][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.22-06.54.36:178][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.22-06.54.36:189][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.22-06.54.36:201][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.22-06.54.36:212][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.22-06.54.36:222][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.22-06.54.36:232][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.22-06.54.36:242][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.22-06.54.36:252][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.22-06.54.36:262][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.22-06.54.36:283][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.22-06.54.36:283][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.22-06.54.36:286][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.22-06.54.36:342][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.22-06.54.36:351][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.22-06.54.36:361][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.22-06.54.36:370][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.22-06.54.36:390][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.22-06.54.36:390][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.22-06.54.36:924][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.22-06.54.37:631][  0]LogDerivedDataCache: Loaded boot cache 0.71s 48MB C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.06.22-06.54.37:631][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.06.22-06.54.37:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Demonic/Desktop/Blackhole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.22-06.54.37:631][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.22-06.54.37:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Demonic/Desktop/Blackhole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.22-06.54.37:631][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.22-06.54.37:692][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.22-06.54.37:704][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Demonic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.22-06.54.43:681][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.22-06.54.43:715][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.22-06.54.45:323][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.06.22-06.54.45:323][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.22-06.54.45:323][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.06.22-06.54.48:686][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.06.22-06.54.48:824][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.087749 seconds
+[2017.06.22-06.54.48:828][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.06.22-06.54.48:828][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.06.22-06.54.48:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.22-06.54.48:834][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.22-06.54.55:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.22-06.54.55:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.22-06.55.15:214][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.22-06.55.16:888][  0]SourceControl: Info Source control is disabled
+[2017.06.22-06.55.16:932][  0]SourceControl: Info Source control is disabled
+[2017.06.22-06.55.17:090][  0]SourceControl: Info Source control is disabled
+[2017.06.22-06.55.17:206][  0]SourceControl: Info Source control is disabled
+[2017.06.22-06.55.17:630][  0]LogLinker:Warning: Can't find file '/Game/TopDownCPP/TopDownOverview'
+[2017.06.22-06.55.17:630][  0]LogLinker:Warning: Can't find file '/Game/TopDownCPP/TopDownOverview'
+[2017.06.22-06.55.17:630][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownCPP/TopDownOverview.TopDownOverview_C'
+[2017.06.22-06.55.18:467][  0]LogEngine: Initializing Engine...
+[2017.06.22-06.55.18:539][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.06.22-06.55.18:542][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.06.22-06.55.19:309][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.06.22-06.55.19:390][  0]LogInit: XAudio2 using 'Speakers (USB  AUDIO  )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-06.55.19:407][  0]LogInit: FAudioDevice initialized.
+[2017.06.22-06.55.19:433][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Demonic/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.06.22-06.55.19:442][  0]LogInit: Texture streaming: Enabled
+[2017.06.22-06.55.19:629][  0]LogInit: Transaction tracking system initialized
+[2017.06.22-06.55.19:942][  0]BlueprintLog: New page: Editor Load
+[2017.06.22-06.55.21:536][  0]LocalizationService: Info Localization service is disabled
+[2017.06.22-06.55.22:244][  0]LogConsoleResponse:Display: 
+[2017.06.22-06.55.25:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Content/' took 0.01s
+[2017.06.22-06.55.25:824][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.06.22-06.55.25:824][  0]LogCook:Display: Mobile HDR setting 0
+[2017.06.22-06.55.29:327][  0]SourceControl: Info Source control is disabled
+[2017.06.22-06.55.29:368][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/BMaps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.22-06.55.29:479][  0]LightingResults: New page: Lighting Build
+[2017.06.22-06.55.29:607][  0]MapCheck: New page: Map Check
+[2017.06.22-06.55.29:607][  0]LightingResults: New page: Lighting Build
+[2017.06.22-06.55.35:430][  0]LogAIModule: Creating AISystem for world Map1
+[2017.06.22-06.55.35:707][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.22-06.55.35:736][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.22-06.55.35:791][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.907ms to complete.
+[2017.06.22-06.55.35:791][  0]LogFileHelpers: Loading map 'Map1' took 6.423
+[2017.06.22-06.55.36:554][  0]LogCollectionManager: Loaded 0 collections in 0.017700 seconds
+[2017.06.22-06.55.36:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Saved/Collections/' took 0.01s
+[2017.06.22-06.55.36:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Content/Developers/Demonic/Collections/' took 0.01s
+[2017.06.22-06.55.36:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Demonic/Desktop/Blackhole/Content/Collections/' took 0.01s
+[2017.06.22-06.55.36:700][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.22-06.55.36:744][  0]LogContentBrowser: Native class hierarchy populated in 0.0422 seconds. Added 2047 classes and 369 folders.
+[2017.06.22-06.55.36:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.015 s
+[2017.06.22-06.55.36:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.22-06.55.36:817][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2017.06.22-06.55.36:827][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.06.22-06.55.38:564][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.22-06.55.38:611][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.22-06.55.39:252][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.22-06.55.39:348][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.22-06.55.39:436][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.22-06.55.39:436][  0]LogLoad: Full Startup: 81.11 seconds (BP compile: 0.97 seconds)
+[2017.06.22-06.55.39:436][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.22-06.55.39:436][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.22-06.55.39:784][  0]LogOcInput: OculusInput pre-init called
+[2017.06.22-06.55.39:893][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.22-06.55.40:752][  0]LogRenderer: Reallocating scene render targets to support 1064x576 (Frame:2).
+[2017.06.22-06.55.41:258][  2]LogAssetRegistry: Asset discovery search completed in 52.5972 seconds
+[2017.06.22-06.55.41:270][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000045 seconds (found 0 objects)
+[2017.06.22-06.55.41:270][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.011288 seconds (updated 0 objects)
+[2017.06.22-09.01.22:639][864]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Blackhole/BMaps/Map1' took 0.415
+[2017.06.22-09.01.22:676][864]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blackhole/Player/BlackholeFont] ([1] browsable assets)...
+[2017.06.22-09.01.22:713][864]OBJ SavePackage:     Rendered thumbnail for [Font /Game/Blackhole/Player/BlackholeFont.BlackholeFont]
+[2017.06.22-09.01.22:713][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blackhole/Player/BlackholeFont]
+[2017.06.22-09.01.23:205][864]LogSavePackage: Save=101.38ms
+[2017.06.22-09.01.23:205][864]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/Blackhole/Saved/BlackholeFont_Auto18D4766C842B5B2440525B3A5130BA189.tmp' to '../../../../../../Users/Demonic/Desktop/Blackhole/Saved/Autosaves/Game/Blackhole/Player/BlackholeFont_Auto1.uasset'
+[2017.06.22-09.01.23:231][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/Blackhole/Saved/Autosaves/Game/Blackhole/Player/BlackholeFont_Auto1.uasset
+[2017.06.22-09.01.23:231][864]LogFileHelpers: Auto-saving content packages took 0.575
+[2017.06.22-09.01.33:229][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Player/BlackholeFont" FILE="../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/BlackholeFont.uasset" SILENT=true
+[2017.06.22-09.01.33:239][160]LogSavePackage: Save=2.93ms
+[2017.06.22-09.01.33:239][160]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/Blackhole/Saved/BlackholeFont5572B94E4399198A5DC995A8D421A0A5.tmp' to '../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/BlackholeFont.uasset'
+[2017.06.22-09.01.33:243][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/BlackholeFont.uasset
+[2017.06.22-09.01.47:589][605]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 111 classes and 0 folders.
+[2017.06.22-09.05.01:147][388]0.510842
+[2017.06.22-09.05.01:147][388]0.518013
+[2017.06.22-09.05.01:147][388]0.538150
+[2017.06.22-09.05.01:178][389]0.568448
+[2017.06.22-09.05.01:216][390]0.662913
+[2017.06.22-09.05.01:250][391]0.753536
+[2017.06.22-09.05.01:284][392]0.855753
+[2017.06.22-09.05.01:317][393]0.937731
+[2017.06.22-09.05.01:351][394]0.968806
+[2017.06.22-09.05.01:384][395]1.020833
+[2017.06.22-09.05.01:417][396]1.052290
+[2017.06.22-09.05.01:451][397]1.094196
+[2017.06.22-09.05.01:483][398]1.104609
+[2017.06.22-09.05.01:806][414]1.115362
+[2017.06.22-09.05.01:824][415]1.126205
+[2017.06.22-09.05.01:850][416]1.158547
+[2017.06.22-09.05.01:884][417]1.180030
+[2017.06.22-09.05.02:492][449]1.200812
+[2017.06.22-09.05.02:536][451]1.211203
+[2017.06.22-09.05.02:559][452]1.220929
+[2017.06.22-09.05.02:586][453]1.240677
+[2017.06.22-09.05.02:619][454]1.239758
+[2017.06.22-09.05.02:620][454]1.239627
+[2017.06.22-09.05.02:664][455]1.239627
+[2017.06.22-09.05.02:697][456]1.219462
+[2017.06.22-09.05.02:730][457]1.189144
+[2017.06.22-09.05.02:750][458]1.148860
+[2017.06.22-09.05.02:784][459]1.129812
+[2017.06.22-09.05.02:817][460]1.103429
+[2017.06.22-09.05.02:851][461]1.091018
+[2017.06.22-09.05.02:884][462]1.068864
+[2017.06.22-09.05.02:917][463]1.071702
+[2017.06.22-09.05.02:950][464]1.063980
+[2017.06.22-09.05.02:984][465]1.048519
+[2017.06.22-09.05.03:017][466]1.058715
+[2017.06.22-09.05.03:050][467]1.057484
+[2017.06.22-09.05.03:083][468]1.067442
+[2017.06.22-09.05.03:117][469]1.077559
+[2017.06.22-09.05.03:150][470]1.084384
+[2017.06.22-09.05.03:384][481]1.089824
+[2017.06.22-09.05.03:402][482]1.095336
+[2017.06.22-09.05.03:428][483]1.106572
+[2017.06.22-09.05.03:461][484]1.123939
+[2017.06.22-09.05.03:495][485]1.141897
+[2017.06.22-09.05.03:528][486]1.154184
+[2017.06.22-09.05.03:562][487]1.171308
+[2017.06.22-09.05.03:596][488]1.181821
+[2017.06.22-09.05.03:630][489]1.186997
+[2017.06.22-09.05.03:663][490]1.194061
+[2017.06.22-09.05.03:697][491]1.201173
+[2017.06.22-09.05.03:730][492]1.208064
+[2017.06.22-09.05.03:797][494]1.222705
+[2017.06.22-09.05.04:034][506]1.222794
+[2017.06.22-09.05.04:052][507]1.156438
+[2017.06.22-09.05.04:078][508]1.082983
+[2017.06.22-09.05.04:111][509]0.980330
+[2017.06.22-09.05.04:144][510]0.862573
+[2017.06.22-09.05.04:178][511]0.752600
+[2017.06.22-09.05.04:211][512]0.597030
+[2017.06.22-09.05.04:212][512]0.552476
+[2017.06.22-09.05.04:245][513]0.402089
+[2017.06.22-09.05.04:279][514]0.296464
+[2017.06.22-09.05.04:312][515]0.270833
+[2017.06.22-09.05.04:346][516]0.379172
+[2017.06.22-09.05.04:379][517]0.531148
+[2017.06.22-09.05.04:412][518]0.695113
+[2017.06.22-09.05.04:446][519]0.765607
+[2017.06.22-09.05.04:479][520]0.831574
+[2017.06.22-09.05.04:512][521]0.866526
+[2017.06.22-09.05.04:546][522]0.894197
+[2017.06.22-09.05.04:579][523]0.930821
+[2017.06.22-09.05.04:579][523]0.941196
+[2017.06.22-09.05.04:612][524]0.980551
+[2017.06.22-09.05.04:646][525]1.000217
+[2017.06.22-09.05.04:679][526]1.083534
+[2017.06.22-09.05.04:713][527]1.146591
+[2017.06.22-09.05.04:746][528]1.211203
+[2017.06.22-09.05.04:779][529]1.286363
+[2017.06.22-09.05.04:812][530]1.383849
+[2017.06.22-09.05.04:846][531]1.417356
+[2017.06.22-09.05.04:879][532]1.449677
+[2017.06.22-09.05.04:912][533]1.460006
+[2017.06.22-09.06.23:185][575]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.06.23:615][575]BlueprintEditorCompileResults: Info [7925.15] Compile of GameMenu successful! [in 412 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.06.56:318][156]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.06.56:481][156]BlueprintEditorCompileResults: Info [7958.03] Compile of GameMenu successful! [in 163 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.07.04:883][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.07.04:883][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.07.05:078][452]PIE: New page: PIE session: Map1 (Jun 21, 2017, 6:07:04 PM)
+[2017.06.22-09.07.05:078][452]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
+[2017.06.22-09.07.05:236][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158392s)
+[2017.06.22-09.07.05:237][452]LogAIModule: Creating AISystem for world Map1
+[2017.06.22-09.07.05:237][452]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2017.06.22-09.07.05:238][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.159984s)
+[2017.06.22-09.07.05:321][452]LogInit: XAudio2 using 'Speakers (USB  AUDIO  )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.07.05:328][452]LogInit: FAudioDevice initialized.
+[2017.06.22-09.07.05:553][452]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.06.22-09.07.05:565][452]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.22-02.07.05
+[2017.06.22-09.07.05:630][452]LogWorld: Bringing up level for play took: 0.067260
+[2017.06.22-09.07.05:773][452]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.22-09.07.05:872][452]PIE: Info Play in editor start time for /Game/Blackhole/BMaps/UEDPIE_0_Map1 0.805
+[2017.06.22-09.07.05:872][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.09.26:023][862]LogBlueprintUserMessages: [BlackHolePlayer_254] You got a new high score of
+[2017.06.22-09.09.26:023][862]LogBlueprintUserMessages: [BlackHolePlayer_254] 42700
+[2017.06.22-09.09.32:039][136]LogNet: Browse: /Game/Blackhole/BMaps/Map1
+[2017.06.22-09.09.32:065][136]LogLoad: LoadMap: /Game/Blackhole/BMaps/Map1
+[2017.06.22-09.09.32:228][136]Cmd: MEM
+[2017.06.22-09.09.32:366][136]LogMemory: Platform Memory Stats for Windows
+[2017.06.22-09.09.32:366][136]LogMemory: Process Physical Memory: 1023.11 MB used, 1040.46 MB peak
+[2017.06.22-09.09.32:366][136]LogMemory: Process Virtual Memory: 1643.70 MB used, 1665.93 MB peak
+[2017.06.22-09.09.32:366][136]LogMemory: Physical Memory: 5182.79 MB used, 8174.04 MB total
+[2017.06.22-09.09.32:366][136]LogMemory: Virtual Memory: 2415.58 MB used, 8388608.00 MB total
+[2017.06.22-09.09.32:366][136]LogMemory: 
+[2017.06.22-09.09.32:366][136]Allocator Stats for TBB: (not implemented)
+[2017.06.22-09.09.32:387][136]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
+[2017.06.22-09.09.32:408][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020851s)
+[2017.06.22-09.09.32:408][136]LogAIModule: Creating AISystem for world Map1
+[2017.06.22-09.09.32:409][136]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2017.06.22-09.09.32:409][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.022116s)
+[2017.06.22-09.09.32:409][136]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.06.22-09.09.32:419][136]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.22-02.09.32
+[2017.06.22-09.09.32:420][136]LogWorld: Bringing up level for play took: 0.003034
+[2017.06.22-09.09.32:426][136]LogLoad: Took 0.360818 seconds to LoadMap(/Game/Blackhole/BMaps/UEDPIE_0_Map1)
+[2017.06.22-09.09.51:738][ 45]LogBlueprintUserMessages: [BlackHolePlayer_254] 2340
+[2017.06.22-09.09.57:773][324]LogNet: Browse: /Game/Blackhole/BMaps/Map1
+[2017.06.22-09.09.57:793][324]LogLoad: LoadMap: /Game/Blackhole/BMaps/Map1
+[2017.06.22-09.09.57:822][324]Cmd: MEM
+[2017.06.22-09.09.57:839][324]LogMemory: Platform Memory Stats for Windows
+[2017.06.22-09.09.57:839][324]LogMemory: Process Physical Memory: 1038.68 MB used, 1052.02 MB peak
+[2017.06.22-09.09.57:839][324]LogMemory: Process Virtual Memory: 1595.46 MB used, 1752.43 MB peak
+[2017.06.22-09.09.57:839][324]LogMemory: Physical Memory: 5190.98 MB used, 8174.04 MB total
+[2017.06.22-09.09.57:839][324]LogMemory: Virtual Memory: 2378.08 MB used, 8388608.00 MB total
+[2017.06.22-09.09.57:839][324]LogMemory: 
+[2017.06.22-09.09.57:839][324]Allocator Stats for TBB: (not implemented)
+[2017.06.22-09.09.57:839][324]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
+[2017.06.22-09.09.57:858][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019349s)
+[2017.06.22-09.09.57:859][324]LogAIModule: Creating AISystem for world Map1
+[2017.06.22-09.09.57:859][324]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2017.06.22-09.09.57:859][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.020465s)
+[2017.06.22-09.09.57:859][324]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.06.22-09.09.57:863][324]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.22-02.09.57
+[2017.06.22-09.09.57:863][324]LogWorld: Bringing up level for play took: 0.002933
+[2017.06.22-09.09.57:865][324]LogLoad: Took 0.072025 seconds to LoadMap(/Game/Blackhole/BMaps/UEDPIE_0_Map1)
+[2017.06.22-09.10.31:057][885]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.10.31:223][885]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.10.35:351][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Player/GameMenu" FILE="../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/GameMenu.uasset" SILENT=true
+[2017.06.22-09.10.35:430][ 61]LogSavePackage: Save=70.27ms
+[2017.06.22-09.10.35:430][ 61]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/Blackhole/Saved/GameMenu420B00034EDB93A2DA9980B7526BAF63.tmp' to '../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/GameMenu.uasset'
+[2017.06.22-09.10.35:434][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/GameMenu.uasset
+[2017.06.22-09.11.16:971][427]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.11.17:097][427]BlueprintEditorCompileResults: Info [8218.64] Compile of GameMenu successful! [in 126 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.11.59:646][808]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.11.59:792][808]BlueprintEditorCompileResults: Info [8261.34] Compile of GameMenu successful! [in 145 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.15.54:079][403]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.15.54:255][403]BlueprintEditorCompileResults: Info [8495.79] Compile of GameMenu successful! [in 175 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.16.13:418][ 24]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.16.13:596][ 24]BlueprintEditorCompileResults: Info [8515.14] Compile of GameMenu successful! [in 178 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.16.32:933][649]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.16.33:064][649]BlueprintEditorCompileResults: Info [8534.60] Compile of GameMenu successful! [in 131 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.16.42:440][953]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.16.42:573][953]BlueprintEditorCompileResults: Info [8544.11] Compile of GameMenu successful! [in 132 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.17.14:548][980]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.17.14:686][980]BlueprintEditorCompileResults: Info [8576.22] Compile of GameMenu successful! [in 137 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.17.32:698][551]0.303338
+[2017.06.22-09.17.32:699][551]0.313367
+[2017.06.22-09.17.32:721][552]0.341215
+[2017.06.22-09.17.32:757][553]0.399245
+[2017.06.22-09.17.32:791][554]0.491353
+[2017.06.22-09.17.32:825][555]0.570259
+[2017.06.22-09.17.32:859][556]0.631649
+[2017.06.22-09.17.32:893][557]0.685445
+[2017.06.22-09.17.32:926][558]0.741342
+[2017.06.22-09.17.32:960][559]0.781528
+[2017.06.22-09.17.32:994][560]0.808551
+[2017.06.22-09.17.33:028][561]0.839818
+[2017.06.22-09.17.33:061][562]0.890549
+[2017.06.22-09.17.33:095][563]0.927610
+[2017.06.22-09.17.33:129][564]0.950888
+[2017.06.22-09.17.33:877][586]0.924681
+[2017.06.22-09.17.33:911][587]0.798490
+[2017.06.22-09.17.33:945][588]0.668698
+[2017.06.22-09.17.33:978][589]0.613081
+[2017.06.22-09.17.34:012][590]0.619857
+[2017.06.22-09.17.34:046][591]0.641788
+[2017.06.22-09.17.34:046][591]0.652353
+[2017.06.22-09.17.34:080][592]0.699780
+[2017.06.22-09.17.34:113][593]0.738923
+[2017.06.22-09.17.34:147][594]0.806468
+[2017.06.22-09.17.34:181][595]0.845035
+[2017.06.22-09.17.34:214][596]0.899098
+[2017.06.22-09.17.34:249][597]0.908701
+[2017.06.22-09.17.34:283][598]0.923330
+[2017.06.22-09.17.34:319][599]0.951972
+[2017.06.22-09.17.34:353][600]0.961555
+[2017.06.22-09.17.34:388][601]0.980772
+[2017.06.22-09.17.42:987][868]0.601106
+[2017.06.22-09.17.42:988][868]0.609887
+[2017.06.22-09.17.43:023][869]0.638483
+[2017.06.22-09.17.43:058][870]0.708640
+[2017.06.22-09.17.43:092][871]0.729464
+[2017.06.22-09.17.43:159][873]0.782984
+[2017.06.22-09.17.43:193][874]0.825484
+[2017.06.22-09.17.43:227][875]0.874318
+[2017.06.22-09.17.43:261][876]0.922919
+[2017.06.22-09.17.43:295][877]0.992430
+[2017.06.22-09.17.43:329][878]1.044164
+[2017.06.22-09.17.43:362][879]1.087981
+[2017.06.22-09.17.43:397][880]1.118519
+[2017.06.22-09.17.43:466][882]1.124083
+[2017.06.22-09.17.43:501][883]1.129716
+[2017.06.22-09.17.43:536][884]1.185534
+[2017.06.22-09.17.43:572][885]1.229873
+[2017.06.22-09.17.43:607][886]1.263168
+[2017.06.22-09.18.13:062][807]BlueprintLog: New page: Compile GameMenu
+[2017.06.22-09.18.13:196][807]BlueprintEditorCompileResults: Info [8634.73] Compile of GameMenu successful! [in 134 ms] (/Game/Blackhole/Player/GameMenu.GameMenu)
+[2017.06.22-09.18.18:193][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.18.18:193][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.22-09.18.18:193][976]PIE: New page: PIE session: Map1 (Jun 21, 2017, 6:18:18 PM)
+[2017.06.22-09.18.18:193][976]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
+[2017.06.22-09.18.18:216][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022883s)
+[2017.06.22-09.18.18:217][976]LogAIModule: Creating AISystem for world Map1
+[2017.06.22-09.18.18:217][976]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2017.06.22-09.18.18:217][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.024207s)
+[2017.06.22-09.18.18:239][976]LogInit: XAudio2 using 'Speakers (USB  AUDIO  )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.22-09.18.18:244][976]LogInit: FAudioDevice initialized.
+[2017.06.22-09.18.18:294][976]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.06.22-09.18.18:297][976]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.22-02.18.18
+[2017.06.22-09.18.18:298][976]LogWorld: Bringing up level for play took: 0.003010
+[2017.06.22-09.18.18:300][976]PIE: Info Play in editor start time for /Game/Blackhole/BMaps/UEDPIE_0_Map1 -0.778
+[2017.06.22-09.18.18:300][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.18.35:220][754]LogBlueprintUserMessages: [BlackHolePlayer_254] You got a new high score of
+[2017.06.22-09.18.35:220][754]LogBlueprintUserMessages: [BlackHolePlayer_254] 10400
+[2017.06.22-09.18.41:249][ 31]LogNet: Browse: /Game/Blackhole/BMaps/Map1
+[2017.06.22-09.18.41:269][ 31]LogLoad: LoadMap: /Game/Blackhole/BMaps/Map1
+[2017.06.22-09.18.41:295][ 31]Cmd: MEM
+[2017.06.22-09.18.41:311][ 31]LogMemory: Platform Memory Stats for Windows
+[2017.06.22-09.18.41:311][ 31]LogMemory: Process Physical Memory: 1100.28 MB used, 1115.78 MB peak
+[2017.06.22-09.18.41:311][ 31]LogMemory: Process Virtual Memory: 1721.91 MB used, 1752.43 MB peak
+[2017.06.22-09.18.41:311][ 31]LogMemory: Physical Memory: 5250.37 MB used, 8174.04 MB total
+[2017.06.22-09.18.41:311][ 31]LogMemory: Virtual Memory: 2514.39 MB used, 8388608.00 MB total
+[2017.06.22-09.18.41:311][ 31]LogMemory: 
+[2017.06.22-09.18.41:311][ 31]Allocator Stats for TBB: (not implemented)
+[2017.06.22-09.18.41:311][ 31]LogPlayLevel: Creating play world package: /Game/Blackhole/BMaps/UEDPIE_0_Map1
+[2017.06.22-09.18.41:333][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022240s)
+[2017.06.22-09.18.41:334][ 31]LogAIModule: Creating AISystem for world Map1
+[2017.06.22-09.18.41:334][ 31]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2017.06.22-09.18.41:335][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blackhole/BMaps/Map1.Map1 to /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 (0.023543s)
+[2017.06.22-09.18.41:335][ 31]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.06.22-09.18.41:338][ 31]LogWorld: Bringing World /Game/Blackhole/BMaps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2017.06.22-02.18.41
+[2017.06.22-09.18.41:339][ 31]LogWorld: Bringing up level for play took: 0.003112
+[2017.06.22-09.18.41:341][ 31]LogLoad: Took 0.071975 seconds to LoadMap(/Game/Blackhole/BMaps/UEDPIE_0_Map1)
+[2017.06.22-09.19.00:417][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.19.00:465][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel' has LevelScriptBlueprint '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1' with GeneratedClass '/Game/Blackhole/BMaps/Map1.Map1_C' with ClassGeneratedBy '/Game/Blackhole/BMaps/Map1.Map1:PersistentLevel.Map1'
+[2017.06.22-09.19.03:305][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Player/GameMenu" FILE="../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/GameMenu.uasset" SILENT=true
+[2017.06.22-09.19.03:373][ 49]LogSavePackage: Save=57.50ms
+[2017.06.22-09.19.03:373][ 49]LogSavePackage: Moving '../../../../../../Users/Demonic/Desktop/Blackhole/Saved/GameMenuA72157F6444C498EEE5639B7F2167DAB.tmp' to '../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/GameMenu.uasset'
+[2017.06.22-09.19.03:379][ 49]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Demonic/Desktop/Blackhole/Content/Blackhole/Player/GameMenu.uasset
+[2017.06.22-09.19.09:011][277]Cmd: QUIT_EDITOR
+[2017.06.22-09.19.09:399][277]LogExit: Preparing to exit.
+[2017.06.22-09.19.10:348][277]LogExit: Editor shut down
+[2017.06.22-09.19.10:348][277]LogExit: Transaction tracking system shut down
+[2017.06.22-09.19.11:407][277]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.22-09.19.11:407][277]LogExit: Object subsystem successfully closed.
+[2017.06.22-09.19.11:623][277]LogD3D11RHI: Shutdown
+[2017.06.22-09.19.11:624][277]LogD3D11RHI: CleanupD3DDevice
+[2017.06.22-09.19.11:717][277]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.22-09.19.12:222][277]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (217)
+[2017.06.22-09.19.12:222][277]LogModuleManager: Shutting down and abandoning module SequencerWidgets (216)
+[2017.06.22-09.19.12:222][277]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2017.06.22-09.19.12:222][277]LogModuleManager: Shutting down and abandoning module FontEditor (214)
+[2017.06.22-09.19.12:222][277]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.06.22-09.19.12:232][277]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.06.22-09.19.12:232][277]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.06.22-09.19.12:233][277]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.06.22-09.19.12:233][277]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.06.22-09.19.12:251][277]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.06.22-09.19.12:251][277]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.06.22-09.19.12:251][277]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.06.22-09.19.12:261][277]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.06.22-09.19.12:284][277]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.06.22-09.19.12:284][277]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.06.22-09.19.12:305][277]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.06.22-09.19.12:321][277]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.06.22-09.19.12:321][277]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.06.22-09.19.12:321][277]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.06.22-09.19.12:334][277]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.06.22-09.19.12:370][277]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.06.22-09.19.12:370][277]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.06.22-09.19.12:370][277]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.06.22-09.19.12:370][277]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.06.22-09.19.12:370][277]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.06.22-09.19.12:389][277]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.06.22-09.19.12:407][277]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.06.22-09.19.12:428][277]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.06.22-09.19.12:428][277]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.06.22-09.19.12:455][277]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.06.22-09.19.12:455][277]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.06.22-09.19.13:311][277]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.06.22-09.19.13:311][277]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.06.22-09.19.13:311][277]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.06.22-09.19.13:311][277]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.06.22-09.19.13:327][277]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.06.22-09.19.13:327][277]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.06.22-09.19.13:336][277]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.06.22-09.19.13:336][277]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.06.22-09.19.13:346][277]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.06.22-09.19.13:357][277]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.06.22-09.19.13:357][277]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.06.22-09.19.13:363][277]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.06.22-09.19.13:376][277]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.06.22-09.19.13:376][277]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.06.22-09.19.13:376][277]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.06.22-09.19.13:376][277]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.06.22-09.19.13:376][277]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.06.22-09.19.13:376][277]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.06.22-09.19.13:398][277]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.06.22-09.19.13:398][277]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.06.22-09.19.13:419][277]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.06.22-09.19.13:428][277]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.06.22-09.19.13:438][277]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.06.22-09.19.13:449][277]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.06.22-09.19.13:449][277]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.06.22-09.19.13:507][277]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.06.22-09.19.13:507][277]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.06.22-09.19.13:512][277]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.06.22-09.19.13:521][277]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.06.22-09.19.13:521][277]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.06.22-09.19.13:535][277]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.06.22-09.19.13:535][277]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.06.22-09.19.13:567][277]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.06.22-09.19.13:571][277]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.06.22-09.19.13:571][277]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.06.22-09.19.13:588][277]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.06.22-09.19.13:588][277]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.06.22-09.19.13:605][277]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.06.22-09.19.13:605][277]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.06.22-09.19.13:605][277]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.06.22-09.19.13:623][277]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.06.22-09.19.13:819][277]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.06.22-09.19.13:840][277]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.06.22-09.19.13:857][277]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.06.22-09.19.13:857][277]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.06.22-09.19.13:857][277]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.06.22-09.19.13:857][277]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.06.22-09.19.13:857][277]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.06.22-09.19.13:862][277]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.06.22-09.19.13:862][277]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.06.22-09.19.13:862][277]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.06.22-09.19.13:862][277]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.06.22-09.19.13:862][277]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.06.22-09.19.13:862][277]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.06.22-09.19.13:862][277]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.06.22-09.19.13:871][277]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.06.22-09.19.13:876][277]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.06.22-09.19.13:876][277]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.06.22-09.19.13:876][277]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.06.22-09.19.13:876][277]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.06.22-09.19.13:895][277]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.06.22-09.19.13:895][277]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.06.22-09.19.13:896][277]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.06.22-09.19.13:915][277]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.06.22-09.19.13:926][277]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.06.22-09.19.13:927][277]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.06.22-09.19.13:932][277]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.06.22-09.19.14:032][277]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.06.22-09.19.14:032][277]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.06.22-09.19.14:032][277]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.06.22-09.19.14:032][277]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.06.22-09.19.14:032][277]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.06.22-09.19.14:053][277]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.06.22-09.19.14:053][277]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.06.22-09.19.14:053][277]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.06.22-09.19.14:053][277]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.06.22-09.19.14:053][277]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.06.22-09.19.14:067][277]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.06.22-09.19.14:067][277]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.06.22-09.19.14:074][277]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.06.22-09.19.14:092][277]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.06.22-09.19.14:092][277]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.06.22-09.19.14:102][277]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.06.22-09.19.14:102][277]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.06.22-09.19.14:102][277]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.06.22-09.19.14:102][277]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.06.22-09.19.14:117][277]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.06.22-09.19.14:117][277]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.06.22-09.19.14:117][277]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.06.22-09.19.14:136][277]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.06.22-09.19.14:136][277]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.06.22-09.19.14:138][277]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.06.22-09.19.14:138][277]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.06.22-09.19.14:138][277]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.06.22-09.19.14:138][277]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.06.22-09.19.14:138][277]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.06.22-09.19.14:138][277]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.06.22-09.19.14:139][277]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.06.22-09.19.14:353][277]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.06.22-09.19.14:353][277]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.06.22-09.19.14:353][277]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.06.22-09.19.14:377][277]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.06.22-09.19.14:435][277]LogDerivedDataCache: Shutdown
+[2017.06.22-09.19.14:435][277]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.06.22-09.19.14:454][277]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.06.22-09.19.14:458][277]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.06.22-09.19.14:458][277]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.06.22-09.19.14:465][277]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.06.22-09.19.14:465][277]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.06.22-09.19.14:465][277]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.06.22-09.19.14:465][277]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.06.22-09.19.14:465][277]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.06.22-09.19.14:465][277]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.06.22-09.19.14:465][277]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.06.22-09.19.14:466][277]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.06.22-09.19.14:485][277]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.06.22-09.19.15:986][277]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.06.22-09.19.15:998][277]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.06.22-09.19.16:015][277]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.06.22-09.19.16:015][277]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.06.22-09.19.16:015][277]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.06.22-09.19.16:015][277]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.06.22-09.19.16:015][277]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.06.22-09.19.16:025][277]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.06.22-09.19.16:035][277]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.06.22-09.19.16:075][277]LogExit: Exiting.
+[2017.06.22-09.19.16:090][277]Log file closed, 06/22/17 02:19:16
