@@ -1,0 +1,867 @@
+﻿Log file open, 01/02/17 10:36:18
+LogInit:Display: Running engine for game: BlackHole
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2056856857) SRandInit(2056856862).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.091766
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.02-18.36.19:044][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.02-18.36.19:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.02-18.36.19:063][  0]LogInit: Computer: LAPTOP-G33VD8VD
+[2017.01.02-18.36.19:063][  0]LogInit: User: UnholyShadows
+[2017.01.02-18.36.19:063][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.02-18.36.19:063][  0]LogInit: High frequency timer resolution =2.531256 MHz
+[2017.01.02-18.36.19:063][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.01.02-18.36.19:063][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.02-18.36.19:063][  0]LogMemory: Process Physical Memory: 190.13 MB used, 190.13 MB peak
+[2017.01.02-18.36.19:063][  0]LogMemory: Process Virtual Memory: 195.19 MB used, 195.19 MB peak
+[2017.01.02-18.36.19:063][  0]LogMemory: Physical Memory: 5465.01 MB used, 8052.91 MB total
+[2017.01.02-18.36.19:063][  0]LogMemory: Virtual Memory: 553.30 MB used, 134217728.00 MB total
+[2017.01.02-18.36.19:096][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.01.02-18.36.19:609][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.02-18.36.19:647][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M   ' (Feature Level 11_0)
+[2017.01.02-18.36.19:647][  0]LogD3D11RHI:       4037/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.02-18.36.19:655][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.01.02-18.36.19:655][  0]LogD3D11RHI:       128/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.01.02-18.36.19:657][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.02-18.36.19:657][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.02-18.36.19:657][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.02-18.36.19:662][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.02-18.36.19:662][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.01.02-18.36.19:662][  0]LogWindows: EnumDisplayDevices:
+[2017.01.02-18.36.19:663][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.01.02-18.36.19:663][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.01.02-18.36.19:663][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.01.02-18.36.19:663][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.01.02-18.36.19:663][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M   
+[2017.01.02-18.36.19:663][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.01.02-18.36.19:663][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.01.02-18.36.19:663][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.02-18.36.19:681][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.02-18.36.19:695][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.01.02-18.36.19:696][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Intermediate/Shaders/WorkingDirectory/8348/).
+[2017.01.02-18.36.19:696][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/UNHOLY~1/AppData/Local/Temp/UnrealShaderWorkingDir/4C3F638B4D1A3BF78B2F17B81FA9C584/'.
+[2017.01.02-18.36.19:696][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.02-18.36.20:577][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.02-18.36.20:586][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.02-18.36.20:594][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.02-18.36.20:603][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.02-18.36.20:612][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.02-18.36.20:623][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.02-18.36.20:633][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.02-18.36.20:642][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.02-18.36.20:651][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.02-18.36.20:660][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.02-18.36.20:677][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.02-18.36.20:706][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.02-18.36.20:706][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.02-18.36.20:707][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.02-18.36.20:729][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.02-18.36.20:738][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.02-18.36.20:746][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.02-18.36.20:753][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.02-18.36.20:762][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.02-18.36.20:762][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.02-18.36.20:832][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.02-18.36.20:892][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/UnholyShadows/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.02-18.36.20:892][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/UnholyShadows/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.01.02-18.36.20:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.02-18.36.20:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.02-18.36.20:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.02-18.36.20:893][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.02-18.36.20:909][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.02-18.36.20:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/UnholyShadows/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.02-18.36.21:084][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.02-18.36.21:085][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.02-18.36.21:233][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.01.02-18.36.21:233][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.02-18.36.21:233][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.01.02-18.36.21:502][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.01.02-18.36.21:543][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.038744 seconds
+[2017.01.02-18.36.21:549][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.01.02-18.36.21:549][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.01.02-18.36.21:549][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.02-18.36.21:555][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.02-18.36.21:728][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.02-18.36.21:728][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.02-18.36.22:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.02-18.36.22:615][  0]SourceControl: Info Source control is disabled
+[2017.01.02-18.36.22:616][  0]SourceControl: Info Source control is disabled
+[2017.01.02-18.36.22:625][  0]SourceControl: Info Source control is disabled
+[2017.01.02-18.36.22:633][  0]SourceControl: Info Source control is disabled
+[2017.01.02-18.36.22:837][  0]LogEngine: Initializing Engine...
+[2017.01.02-18.36.22:838][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.01.02-18.36.22:839][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.01.02-18.36.22:978][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.01.02-18.36.22:982][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-18.36.23:416][  0]LogInit: FAudioDevice initialized.
+[2017.01.02-18.36.23:454][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/UnholyShadows/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.01.02-18.36.23:464][  0]LogInit: Texture streaming: Enabled
+[2017.01.02-18.36.23:486][  0]LogInit: Transaction tracking system initialized
+[2017.01.02-18.36.23:509][  0]BlueprintLog: New page: Editor Load
+[2017.01.02-18.36.23:579][  0]LocalizationService: Info Localization service is disabled
+[2017.01.02-18.36.23:638][  0]LogConsoleResponse:Display: 
+[2017.01.02-18.36.23:739][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.01.02-18.36.23:739][  0]LogCook:Display: Mobile HDR setting 0
+[2017.01.02-18.36.23:838][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/' took 0.02s
+[2017.01.02-18.36.23:838][  0]SourceControl: Info Source control is disabled
+[2017.01.02-18.36.23:838][  0]Cmd: MAP LOAD FILE="../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.02-18.36.23:838][  0]LightingResults: New page: Lighting Build
+[2017.01.02-18.36.23:841][  0]MapCheck: New page: Map Check
+[2017.01.02-18.36.23:841][  0]LightingResults: New page: Lighting Build
+[2017.01.02-18.36.23:985][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.23:985][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.23:985][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:132][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:132][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:132][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:132][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:132][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:132][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:135][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:136][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:136][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:136][  0]LogText:Warning: Failed to parse argument "ImportClass" as a number (using "0" as a fallback). Please check your format string for errors: ": Failed import for {ImportClass}".
+[2017.01.02-18.36.24:290][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-18.36.24:304][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.02-18.36.24:306][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.02-18.36.24:355][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.767ms to complete.
+[2017.01.02-18.36.24:356][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.518
+[2017.01.02-18.36.24:538][  0]LogCollectionManager: Loaded 0 collections in 0.002197 seconds
+[2017.01.02-18.36.24:589][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/Collections/' took 0.01s
+[2017.01.02-18.36.24:589][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Developers/UnholyShadows/Collections/' took 0.01s
+[2017.01.02-18.36.24:589][  0]LogFileCache: Scanning file cache for directory 'C:/Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Collections/' took 0.01s
+[2017.01.02-18.36.24:589][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2017.01.02-18.36.24:613][  0]LogContentBrowser: Native class hierarchy populated in 0.0234 seconds. Added 2047 classes and 369 folders.
+[2017.01.02-18.36.24:623][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.02-18.36.24:623][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.02-18.36.24:625][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0012 seconds. Added 12 classes and 0 folders.
+[2017.01.02-18.36.24:630][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.01.02-18.36.24:671][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.01.02-18.36.24:674][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.01.02-18.36.24:686][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.02-18.36.24:693][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.02-18.36.24:721][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.02-18.36.24:721][  0]LogLoad: Full Startup: 6.90 seconds (BP compile: 0.11 seconds)
+[2017.01.02-18.36.24:721][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.02-18.36.25:061][  0]LogOcInput: OculusInput pre-init called
+[2017.01.02-18.36.25:062][  0]LoadErrors:Error: Error /Game/TopDownBP/Maps/TopDownExampleMap : Failed import for TopDownCharacter_C /Game/TopDownBP/Blueprints/TopDownCharacter.Default__TopDownCharacter_C [redirection] in /Game/TopDownBP/Maps/TopDownExampleMap
+[2017.01.02-18.36.25:064][  0]LoadErrors:Error: Error /Game/TopDownBP/Maps/TopDownExampleMap : Failed import for ArrowComponent /Game/TopDownBP/Blueprints/TopDownCharacter.Default__TopDownCharacter_C:Arrow
+[2017.01.02-18.36.25:064][  0]LoadErrors:Error: Error /Game/TopDownBP/Maps/TopDownExampleMap : Failed import for CapsuleComponent /Game/TopDownBP/Blueprints/TopDownCharacter.Default__TopDownCharacter_C:CollisionCylinder
+[2017.01.02-18.36.25:064][  0]LoadErrors:Error: Error /Game/TopDownBP/Maps/TopDownExampleMap : Failed import for CharacterMovementComponent /Game/TopDownBP/Blueprints/TopDownCharacter.Default__TopDownCharacter_C:CharMoveComp
+[2017.01.02-18.36.25:064][  0]LoadErrors:Error: Error /Game/TopDownBP/Maps/TopDownExampleMap : Failed import for SkeletalMeshComponent /Game/TopDownBP/Blueprints/TopDownCharacter.Default__TopDownCharacter_C:CharacterMesh0
+[2017.01.02-18.36.25:085][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.02-18.36.25:481][  2]LogRenderer: Reallocating scene render targets to support 784x376 (Frame:2).
+[2017.01.02-18.36.25:742][  2]LogAssetRegistry: Asset discovery search completed in 4.2624 seconds
+[2017.01.02-18.36.25:742][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.02-18.36.25:742][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2017.01.02-18.36.35:503][366]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2017.01.02-18.36.39:602][521]LogRenderer: Reallocating scene render targets to support 920x432 (Frame:489).
+[2017.01.02-18.37.04:956][890]LogMetaData: Removing '/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer_C' ref from Metadata '/Game/Blackhole/Player/TopDownCharacter.PackageMetaData'
+[2017.01.02-18.37.04:956][890]LogMetaData: Removing '/Game/Blackhole/Player/BlackHolePlayer.SKEL_BlackHolePlayer_C' ref from Metadata '/Game/Blackhole/Player/TopDownCharacter.PackageMetaData'
+[2017.01.02-18.37.05:117][890]LogSavePackage: Save=88.81ms
+[2017.01.02-18.37.05:117][890]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHolePlayer47BDF8364A183EEB924C63991EBD9DBB.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset'
+[2017.01.02-18.37.05:121][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset
+[2017.01.02-18.37.05:298][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Enemies/A_Enemy" FILE="../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/A_Enemy.uasset" SILENT=true
+[2017.01.02-18.37.05:328][890]LogSavePackage: Save=24.14ms
+[2017.01.02-18.37.05:328][890]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/A_Enemy462CAFE74DE6074537505EB7517CBC13.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/A_Enemy.uasset'
+[2017.01.02-18.37.05:330][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/A_Enemy.uasset
+[2017.01.02-18.37.05:382][890]LogSavePackage: Save=34.15ms
+[2017.01.02-18.37.05:382][890]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/TopDownController8A1DE44145098FE9EAEA56916F6B58C1.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/TopDownController.uasset'
+[2017.01.02-18.37.05:383][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/TopDownController.uasset
+[2017.01.02-18.37.05:402][890]LogSavePackage: Save=9.39ms
+[2017.01.02-18.37.05:402][890]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/TopDownGameMode891A79AA41B1ACE7876C9B890E5DF3BF.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/TopDownGameMode.uasset'
+[2017.01.02-18.37.05:404][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/TopDownGameMode.uasset
+[2017.01.02-18.37.05:425][890]LogSavePackage: Save=11.47ms
+[2017.01.02-18.37.05:426][890]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/TopDownCharacter6D9B6B1947F3D54C87D53FA452285C18.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2017.01.02-18.37.05:428][890]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Blueprints/TopDownCharacter.uasset
+[2017.01.02-18.37.40:093][372]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-18.37.40:455][372]BlueprintEditorCompileResults: Info [0082.63] Compile of BlackHolePlayer successful! [in 361 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-18.38.22:660][403]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.01.02-18.38.22:915][403]LogSavePackage: Save=167.10ms
+[2017.01.02-18.38.22:915][403]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/TopDownExampleMap118A46534583E0AEF8334DA43BEB1E23.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.01.02-18.38.22:920][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.01.02-18.38.22:947][403]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.286
+[2017.01.02-18.38.22:947][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Player/BlackHoleHud" FILE="../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset" SILENT=true
+[2017.01.02-18.38.22:957][403]LogSavePackage: Save=8.41ms
+[2017.01.02-18.38.22:957][403]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHoleHud26C4E1FA406F7D4B0104AFB095304183.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset'
+[2017.01.02-18.38.22:959][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset
+[2017.01.02-18.38.23:080][403]LogSavePackage: Save=74.09ms
+[2017.01.02-18.38.23:080][403]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHolePlayerD785A3E7489A541CB76AF081129144E3.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset'
+[2017.01.02-18.38.23:082][403]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset
+[2017.01.02-18.39.16:262][360]0.748624
+[2017.01.02-18.39.16:295][361]0.754184
+[2017.01.02-18.39.16:327][362]0.777421
+[2017.01.02-18.39.16:361][363]0.808551
+[2017.01.02-18.39.16:390][364]0.841754
+[2017.01.02-18.39.16:423][365]0.855563
+[2017.01.02-18.39.16:452][366]0.862573
+[2017.01.02-18.39.16:514][368]0.870275
+[2017.01.02-18.39.16:565][370]0.892010
+[2017.01.02-18.39.16:598][371]0.943844
+[2017.01.02-18.39.16:628][372]0.951573
+[2017.01.02-18.39.16:659][373]0.973276
+[2017.01.02-18.39.16:660][373]0.980993
+[2017.01.02-18.39.16:689][374]0.995705
+[2017.01.02-18.39.16:718][375]1.010417
+[2017.01.02-18.39.16:806][378]1.032144
+[2017.01.02-18.39.16:836][379]1.046862
+[2017.01.02-18.39.17:011][386]1.069270
+[2017.01.02-18.39.17:977][424]1.053938
+[2017.01.02-18.39.18:009][425]0.995051
+[2017.01.02-18.39.18:038][426]0.839818
+[2017.01.02-18.39.18:067][427]0.822983
+[2017.01.02-18.39.18:067][427]0.847855
+[2017.01.02-18.39.18:096][428]0.927317
+[2017.01.02-18.39.18:259][434]0.932917
+[2017.01.02-18.39.18:476][442]0.952940
+[2017.01.02-18.39.18:476][442]0.962964
+[2017.01.02-18.39.18:505][443]0.995868
+[2017.01.02-18.39.18:534][444]1.041667
+[2017.01.02-18.39.18:563][445]1.067594
+[2017.01.02-18.39.18:601][446]1.090571
+[2017.01.02-18.39.18:629][447]1.113561
+[2017.01.02-18.39.19:144][467]1.126638
+[2017.01.02-18.39.19:176][468]1.136563
+[2017.01.02-18.39.19:205][469]1.162800
+[2017.01.02-18.39.19:234][470]1.175977
+[2017.01.02-18.39.19:295][472]1.215719
+[2017.01.02-18.39.19:510][480]1.225542
+[2017.01.02-18.39.19:542][481]1.238576
+[2017.01.02-18.39.19:571][482]1.248480
+[2017.01.02-18.39.19:599][483]1.245304
+[2017.01.02-18.39.19:656][485]1.252168
+[2017.01.02-18.39.19:780][489]1.245522
+[2017.01.02-18.39.19:812][490]1.246262
+[2017.01.02-18.39.21:734][560]0.871583
+[2017.01.02-18.39.21:796][562]0.889818
+[2017.01.02-18.39.21:829][563]0.923800
+[2017.01.02-18.39.21:863][564]0.957540
+[2017.01.02-18.39.21:904][565]1.000434
+[2017.01.02-18.39.21:933][566]1.020249
+[2017.01.02-18.39.21:961][567]1.029091
+[2017.01.02-18.39.21:998][568]1.037962
+[2017.01.02-18.39.22:028][569]1.055790
+[2017.01.02-18.39.22:085][571]1.064744
+[2017.01.02-18.39.22:319][580]1.086634
+[2017.01.02-18.39.22:348][581]1.081579
+[2017.01.02-18.39.22:503][587]1.085784
+[2017.01.02-18.39.22:688][594]1.090720
+[2017.01.02-18.40.01:267][829]0.437252
+[2017.01.02-18.40.01:309][830]0.587134
+[2017.01.02-18.40.01:336][831]0.652602
+[2017.01.02-18.40.01:373][832]0.695113
+[2017.01.02-18.40.01:410][833]0.723565
+[2017.01.02-18.40.01:442][834]0.737821
+[2017.01.02-18.40.01:472][835]0.746810
+[2017.01.02-18.40.01:512][836]0.775325
+[2017.01.02-18.40.01:568][838]0.793310
+[2017.01.02-18.40.01:605][839]0.834699
+[2017.01.02-18.40.01:643][840]0.871334
+[2017.01.02-18.40.01:644][840]0.880563
+[2017.01.02-18.40.01:674][841]0.922390
+[2017.01.02-18.40.01:704][842]0.954987
+[2017.01.02-18.40.01:740][843]0.978280
+[2017.01.02-18.40.01:831][846]1.010900
+[2017.01.02-18.40.01:862][847]1.034192
+[2017.01.02-18.40.01:892][848]1.057484
+[2017.01.02-18.40.01:923][849]1.071449
+[2017.01.02-18.40.01:962][850]1.094742
+[2017.01.02-18.40.03:110][888]1.069726
+[2017.01.02-18.40.03:150][889]1.047587
+[2017.01.02-18.40.03:181][890]1.018759
+[2017.01.02-18.40.03:212][891]0.996957
+[2017.01.02-18.40.03:243][892]0.981159
+[2017.01.02-18.40.03:244][892]0.979388
+[2017.01.02-18.40.03:275][893]0.981159
+[2017.01.02-18.40.03:276][893]0.983644
+[2017.01.02-18.40.03:307][894]0.991555
+[2017.01.02-18.40.03:307][894]0.988761
+[2017.01.02-18.40.03:349][895]0.978779
+[2017.01.02-18.40.03:380][896]0.983644
+[2017.01.02-18.40.03:411][897]1.012991
+[2017.01.02-18.40.03:411][897]1.014757
+[2017.01.02-18.40.03:443][898]1.034349
+[2017.01.02-18.40.03:443][898]1.040259
+[2017.01.02-18.40.03:474][899]1.050019
+[2017.01.02-18.40.03:506][900]1.073725
+[2017.01.02-18.40.03:546][901]1.080324
+[2017.01.02-18.40.03:695][906]1.100475
+[2017.01.02-18.40.03:736][907]1.128130
+[2017.01.02-18.40.03:766][908]1.142277
+[2017.01.02-18.40.03:822][910]1.149426
+[2017.01.02-18.40.04:643][939]1.128130
+[2017.01.02-18.40.04:644][939]1.108384
+[2017.01.02-18.40.04:684][940]0.955839
+[2017.01.02-18.40.04:715][941]0.935472
+[2017.01.02-18.40.04:715][941]0.939581
+[2017.01.02-18.40.04:746][942]0.949346
+[2017.01.02-18.40.04:778][943]0.966451
+[2017.01.02-18.40.04:812][944]0.969366
+[2017.01.02-18.40.04:863][946]0.970988
+[2017.01.02-18.40.04:924][948]0.982982
+[2017.01.02-18.40.04:964][949]0.984802
+[2017.01.02-18.40.04:995][950]1.003304
+[2017.01.02-18.40.05:026][951]1.010578
+[2017.01.02-18.40.05:057][952]1.025975
+[2017.01.02-18.40.05:097][953]1.031671
+[2017.01.02-18.40.05:150][955]1.060762
+[2017.01.02-18.40.05:188][956]1.067289
+[2017.01.02-18.40.05:226][957]1.074180
+[2017.01.02-18.40.05:257][958]1.081429
+[2017.01.02-18.40.05:289][959]1.089027
+[2017.01.02-18.40.05:329][960]1.101067
+[2017.01.02-18.40.05:360][961]1.105247
+[2017.01.02-18.40.05:443][964]1.109509
+[2017.01.02-18.40.05:444][964]1.113853
+[2017.01.02-18.40.05:539][967]1.127697
+[2017.01.02-18.40.05:622][970]1.136706
+[2017.01.02-18.40.05:678][972]1.164852
+[2017.01.02-18.40.07:294][ 26]1.118519
+[2017.01.02-18.40.07:340][ 27]1.068914
+[2017.01.02-18.40.07:377][ 28]1.009127
+[2017.01.02-18.40.07:409][ 29]0.964766
+[2017.01.02-18.40.07:440][ 30]0.927551
+[2017.01.02-18.40.07:470][ 31]0.917909
+[2017.01.02-18.40.07:506][ 32]0.913168
+[2017.01.02-18.40.07:545][ 33]0.920741
+[2017.01.02-18.40.07:576][ 34]0.919090
+[2017.01.02-18.40.07:607][ 35]0.956066
+[2017.01.02-18.40.07:638][ 36]0.978169
+[2017.01.02-18.40.07:678][ 37]1.004385
+[2017.01.02-18.40.07:710][ 38]1.033825
+[2017.01.02-18.40.07:741][ 39]1.064999
+[2017.01.02-18.40.07:771][ 40]1.096178
+[2017.01.02-18.40.07:772][ 40]1.095534
+[2017.01.02-18.40.07:815][ 41]1.156672
+[2017.01.02-18.40.07:846][ 42]1.229211
+[2017.01.02-18.40.07:876][ 43]1.292716
+[2017.01.02-18.40.07:908][ 44]1.324925
+[2017.01.02-18.40.07:938][ 45]1.335326
+[2017.01.02-18.40.08:345][ 59]1.356128
+[2017.01.02-18.40.08:379][ 60]1.386043
+[2017.01.02-18.40.08:379][ 60]1.396455
+[2017.01.02-18.40.08:463][ 63]1.416820
+[2017.01.02-18.40.08:495][ 64]1.437538
+[2017.01.02-18.40.08:526][ 65]1.447954
+[2017.01.02-18.40.08:557][ 66]1.458333
+[2017.01.02-18.40.27:557][651]BlueprintLog: New page: Compile BlackHoleHud
+[2017.01.02-18.40.28:284][651]BlueprintEditorCompileResults: Info [0250.46] Compile of BlackHoleHud successful! [in 726 ms] (/Game/Blackhole/Player/BlackHoleHud.BlackHoleHud)
+[2017.01.02-18.40.45:592][250]BlueprintLog: New page: Compile BlackHoleHud
+[2017.01.02-18.40.45:802][250]BlueprintEditorCompileResults: Info [0267.98] Compile of BlackHoleHud successful! [in 209 ms] (/Game/Blackhole/Player/BlackHoleHud.BlackHoleHud)
+[2017.01.02-18.41.23:993][871]BlueprintLog: New page: Compile BlackHoleHud
+[2017.01.02-18.41.24:340][871]BlueprintEditorCompileResults: Info [0306.51] Compile of BlackHoleHud successful! [in 347 ms] (/Game/Blackhole/Player/BlackHoleHud.BlackHoleHud)
+[2017.01.02-18.42.10:327][957]BlueprintLog: New page: Compile BlackHoleHud
+[2017.01.02-18.42.10:665][957]BlueprintEditorCompileResults: Info [0352.84] Compile of BlackHoleHud successful! [in 337 ms] (/Game/Blackhole/Player/BlackHoleHud.BlackHoleHud)
+[2017.01.02-18.42.50:864][813]BlueprintLog: New page: Compile BlackHoleHud
+[2017.01.02-18.42.51:178][813]BlueprintEditorCompileResults: Info [0393.35] Compile of BlackHoleHud successful! [in 313 ms] (/Game/Blackhole/Player/BlackHoleHud.BlackHoleHud)
+[2017.01.02-18.43.11:779][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Player/BlackHoleHud" FILE="../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset" SILENT=true
+[2017.01.02-18.43.11:817][783]LogSavePackage: Save=25.26ms
+[2017.01.02-18.43.11:817][783]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHoleHudA5F36C134E7E18D904A78AA2F2F751FC.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset'
+[2017.01.02-18.43.11:820][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset
+[2017.01.02-18.43.13:360][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.43.13:361][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-18.43.13:361][848]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 2:43:13 AM)
+[2017.01.02-18.43.13:361][848]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-18.43.13:387][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025658s)
+[2017.01.02-18.43.13:388][848]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-18.43.13:388][848]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2017.01.02-18.43.13:389][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027407s)
+[2017.01.02-18.43.13:431][848]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-18.43.13:446][848]LogInit: FAudioDevice initialized.
+[2017.01.02-18.43.13:518][848]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-18.43.13:523][848]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.01.02-10.43.13
+[2017.01.02-18.43.13:524][848]LogWorld: Bringing up level for play took: 0.004423
+[2017.01.02-18.43.13:530][848]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.01.02-18.43.13:531][848]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.288
+[2017.01.02-18.43.13:531][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.44.10:628][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.44.10:696][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.47.42:417][388]LogSavePackage: Save=70.81ms
+[2017.01.02-18.47.42:417][388]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHolePlayerD08D61B04D48A2A270826F961C7DFC21.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset'
+[2017.01.02-18.47.42:421][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset
+[2017.01.02-18.53.38:450][838]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_143.EdGraphPin_255''
+[2017.01.02-18.53.38:450][838]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_8.EdGraphPin_183''
+[2017.01.02-18.53.38:450][838]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_143.EdGraphPin_257''
+[2017.01.02-18.53.38:451][838]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_42.EdGraphPin_1433''
+[2017.01.02-18.53.38:451][838]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_143.EdGraphPin_254''
+[2017.01.02-18.53.38:451][838]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/PlayerHud'
+[2017.01.02-18.53.38:452][838]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/PlayerHud'
+[2017.01.02-18.53.38:452][838]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:DefaultObject: unresolved reference to 'WidgetBlueprintGeneratedClass'/Game/FirstPersonBP/Blueprints/PlayerHud.PlayerHud_C''
+[2017.01.02-18.53.38:452][838]LogLinker: Can't find file '/Game/FirstPersonBP/Blueprints/PlayerHud'
+[2017.01.02-18.53.38:452][838]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'WidgetBlueprintGeneratedClass'/Game/FirstPersonBP/Blueprints/PlayerHud.PlayerHud_C')'
+[2017.01.02-18.53.38:452][838]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_143.EdGraphPin_256''
+[2017.01.02-18.54.04:433][762]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-18.54.04:478][762]LogBlueprint:Error: Compiler Error Spawn node  Create Widget  must have a class specified.
+[2017.01.02-18.54.05:984][762]LogBlueprint:Warning: Compiler Warning [1068.16] Compile of BlackHolePlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,550 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-18.54.05:984][762]BlueprintEditorCompileResults:Error: Error Spawn node  Create Widget  must have a class specified.
+[2017.01.02-18.54.05:984][762]BlueprintEditorCompileResults:Warning: Warning [1068.16] Compile of BlackHolePlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,550 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-18.54.10:468][964]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.01.02-18.54.33:171][ 31]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-18.54.33:392][ 31]BlueprintEditorCompileResults: Info [1095.57] Compile of BlackHolePlayer successful! [in 221 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-18.54.38:842][275]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-18.54.39:060][275]BlueprintEditorCompileResults: Info [1101.23] Compile of BlackHolePlayer successful! [in 217 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-18.55.09:666][818]BlueprintLog: New page: Compile BlackHoleHud
+[2017.01.02-18.55.09:832][818]BlueprintEditorCompileResults: Info [1132.01] Compile of BlackHoleHud successful! [in 165 ms] (/Game/Blackhole/Player/BlackHoleHud.BlackHoleHud)
+[2017.01.02-18.55.12:774][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.55.12:774][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-18.55.12:774][995]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 2:55:12 AM)
+[2017.01.02-18.55.12:774][995]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-18.55.12:803][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028965s)
+[2017.01.02-18.55.12:805][995]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-18.55.12:805][995]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2017.01.02-18.55.12:805][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030932s)
+[2017.01.02-18.55.12:839][995]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-18.55.12:854][995]LogInit: FAudioDevice initialized.
+[2017.01.02-18.55.12:926][995]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-18.55.12:931][995]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.01.02-10.55.12
+[2017.01.02-18.55.12:932][995]LogWorld: Bringing up level for play took: 0.004458
+[2017.01.02-18.55.12:935][995]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.307
+[2017.01.02-18.55.12:936][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.57.11:511][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.57.11:566][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.57.42:223][707]LogSavePackage: Save=207.52ms
+[2017.01.02-18.57.42:223][707]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/TopDownExampleMapBDF32B40405EA40B24C9428950A16453.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.01.02-18.57.42:228][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.01.02-18.57.42:274][707]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.358
+[2017.01.02-18.57.42:277][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Player/BlackHoleHud" FILE="../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset" SILENT=true
+[2017.01.02-18.57.42:308][707]LogSavePackage: Save=19.81ms
+[2017.01.02-18.57.42:308][707]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHoleHud0C4FE2E9408A6D2AB15DCD884846F4AD.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset'
+[2017.01.02-18.57.42:312][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHoleHud.uasset
+[2017.01.02-18.57.42:448][707]LogSavePackage: Save=73.42ms
+[2017.01.02-18.57.42:448][707]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHolePlayer8B0011ED43E84D26ACB5478EDA234A79.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset'
+[2017.01.02-18.57.42:451][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset
+[2017.01.02-18.58.07:659][120]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2017.01.02-18.59.35:587][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Enemies/Light" FILE="../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/Light.uasset" SILENT=true
+[2017.01.02-18.59.35:608][792]LogSavePackage: Save=11.19ms
+[2017.01.02-18.59.35:608][792]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/Light3A5066F94DCEDB74B32C2CA1F989D85E.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/Light.uasset'
+[2017.01.02-18.59.35:612][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/Light.uasset
+[2017.01.02-18.59.38:558][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.59.38:559][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-18.59.38:559][975]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 2:59:38 AM)
+[2017.01.02-18.59.38:559][975]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-18.59.38:584][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024915s)
+[2017.01.02-18.59.38:585][975]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-18.59.38:585][975]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2017.01.02-18.59.38:586][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026628s)
+[2017.01.02-18.59.38:666][975]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-18.59.38:681][975]LogInit: FAudioDevice initialized.
+[2017.01.02-18.59.38:730][975]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-18.59.38:734][975]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.01.02-10.59.38
+[2017.01.02-18.59.38:735][975]LogWorld: Bringing up level for play took: 0.003104
+[2017.01.02-18.59.38:737][975]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.506
+[2017.01.02-18.59.38:737][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.59.47:933][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-18.59.47:995][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.01.06:982][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.01.06:982][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-19.01.06:982][997]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 3:01:06 AM)
+[2017.01.02-19.01.06:982][997]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-19.01.07:005][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022842s)
+[2017.01.02-19.01.07:007][997]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-19.01.07:007][997]LogPlayLevel: PIE: World Init took: (0.001442s)
+[2017.01.02-19.01.07:007][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024651s)
+[2017.01.02-19.01.07:038][997]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-19.01.07:051][997]LogInit: FAudioDevice initialized.
+[2017.01.02-19.01.07:129][997]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-19.01.07:136][997]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.01.02-11.01.07
+[2017.01.02-19.01.07:136][997]LogWorld: Bringing up level for play took: 0.004971
+[2017.01.02-19.01.07:138][997]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.105
+[2017.01.02-19.01.07:138][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.01.19:946][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.01.20:002][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.01.24:741][289]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.01.02-19.01.49:978][807]LogEditorViewport: Clicking on Actor (LMB): BlackHolePlayer_C (TopDownCharacter)
+[2017.01.02-19.01.54:306][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.01.54:306][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-19.01.54:306][ 61]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 3:01:54 AM)
+[2017.01.02-19.01.54:306][ 61]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-19.01.54:332][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025998s)
+[2017.01.02-19.01.54:333][ 61]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-19.01.54:333][ 61]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2017.01.02-19.01.54:333][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027361s)
+[2017.01.02-19.01.54:364][ 61]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-19.01.54:376][ 61]LogInit: FAudioDevice initialized.
+[2017.01.02-19.01.54:440][ 61]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-19.01.54:446][ 61]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.01.02-11.01.54
+[2017.01.02-19.01.54:446][ 61]LogWorld: Bringing up level for play took: 0.004941
+[2017.01.02-19.01.54:448][ 61]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.795
+[2017.01.02-19.01.54:448][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.02.15:434][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.02.15:507][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.02.20:547][810]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2017.01.02-19.02.23:660][990]LogEditorViewport: Clicking on Actor (LMB): BlackHolePlayer_C (TopDownCharacter)
+[2017.01.02-19.02.55:682][327]LogRenderer: Reallocating scene render targets to support 920x540 (Frame:67141).
+[2017.01.02-19.04.22:408][935]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.04.22:634][935]BlueprintEditorCompileResults: Info [1684.81] Compile of BlackHolePlayer successful! [in 226 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.04.25:865][ 78]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.04.25:865][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-19.04.25:865][ 78]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 3:04:25 AM)
+[2017.01.02-19.04.25:865][ 78]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-19.04.25:890][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025644s)
+[2017.01.02-19.04.25:891][ 78]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-19.04.25:892][ 78]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.01.02-19.04.25:892][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026991s)
+[2017.01.02-19.04.25:923][ 78]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-19.04.25:935][ 78]LogInit: FAudioDevice initialized.
+[2017.01.02-19.04.26:008][ 78]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-19.04.26:012][ 78]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.01.02-11.04.26
+[2017.01.02-19.04.26:013][ 78]LogWorld: Bringing up level for play took: 0.003662
+[2017.01.02-19.04.26:014][ 78]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.772
+[2017.01.02-19.04.26:014][ 78]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.04.36:908][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.04.37:014][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.05.36:319][456]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.05.36:536][456]BlueprintEditorCompileResults: Info [1758.71] Compile of BlackHolePlayer successful! [in 217 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.05.54:033][215]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.05.54:257][215]BlueprintEditorCompileResults: Info [1776.43] Compile of BlackHolePlayer successful! [in 223 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.06.28:846][688]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.06.29:065][688]BlueprintEditorCompileResults: Info [1811.24] Compile of BlackHolePlayer successful! [in 218 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.06.40:982][183]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.06.41:187][183]BlueprintEditorCompileResults: Info [1823.36] Compile of BlackHolePlayer successful! [in 204 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.06.43:870][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.06.43:870][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-19.06.43:870][305]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 3:06:43 AM)
+[2017.01.02-19.06.43:870][305]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-19.06.43:895][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025550s)
+[2017.01.02-19.06.43:897][305]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-19.06.43:897][305]LogPlayLevel: PIE: World Init took: (0.001635s)
+[2017.01.02-19.06.43:897][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027640s)
+[2017.01.02-19.06.43:924][305]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-19.06.43:937][305]LogInit: FAudioDevice initialized.
+[2017.01.02-19.06.43:984][305]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-19.06.43:989][305]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2017.01.02-11.06.43
+[2017.01.02-19.06.43:989][305]LogWorld: Bringing up level for play took: 0.003663
+[2017.01.02-19.06.43:991][305]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.748
+[2017.01.02-19.06.43:991][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.06.53:379][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.06.53:481][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.07.04:681][324]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.07.04:891][324]BlueprintEditorCompileResults: Info [1847.07] Compile of BlackHolePlayer successful! [in 210 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.07.07:912][464]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.07.07:912][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-19.07.07:912][464]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 3:07:07 AM)
+[2017.01.02-19.07.07:912][464]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-19.07.07:936][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024075s)
+[2017.01.02-19.07.07:937][464]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-19.07.07:938][464]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2017.01.02-19.07.07:938][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025490s)
+[2017.01.02-19.07.07:965][464]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-19.07.07:976][464]LogInit: FAudioDevice initialized.
+[2017.01.02-19.07.08:051][464]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-19.07.08:055][464]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2017.01.02-11.07.08
+[2017.01.02-19.07.08:056][464]LogWorld: Bringing up level for play took: 0.003870
+[2017.01.02-19.07.08:058][464]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.815
+[2017.01.02-19.07.08:058][464]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.07.14:591][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.07.14:692][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.07.15:862][901]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.07.15:862][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.02-19.07.15:862][901]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2017, 3:07:15 AM)
+[2017.01.02-19.07.15:862][901]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.01.02-19.07.15:886][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023507s)
+[2017.01.02-19.07.15:887][901]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.01.02-19.07.15:887][901]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2017.01.02-19.07.15:887][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025067s)
+[2017.01.02-19.07.15:917][901]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.02-19.07.15:929][901]LogInit: FAudioDevice initialized.
+[2017.01.02-19.07.15:994][901]LogWorld: Game class is 'TopDownGameMode_C'
+[2017.01.02-19.07.15:998][901]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2017.01.02-11.07.15
+[2017.01.02-19.07.15:999][901]LogWorld: Bringing up level for play took: 0.003311
+[2017.01.02-19.07.16:000][901]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.758
+[2017.01.02-19.07.16:000][901]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.08.00:557][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.08.00:636][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.01.02-19.08.03:674][724]LogSavePackage: Save=169.60ms
+[2017.01.02-19.08.03:674][724]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/TopDownExampleMapB5EBD3BB4C28E933AF7A71B7C8CE5149.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.01.02-19.08.03:678][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.01.02-19.08.03:708][724]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.293
+[2017.01.02-19.08.03:717][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blackhole/Enemies/Light" FILE="../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/Light.uasset" SILENT=true
+[2017.01.02-19.08.03:735][724]LogSavePackage: Save=9.47ms
+[2017.01.02-19.08.03:735][724]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/LightFCBAD26C4157E97B6A13BA82932CA428.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/Light.uasset'
+[2017.01.02-19.08.03:738][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Enemies/Light.uasset
+[2017.01.02-19.08.03:869][724]LogSavePackage: Save=62.17ms
+[2017.01.02-19.08.03:869][724]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHolePlayer9C52EAFC4108857A7124E684537DE89D.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset'
+[2017.01.02-19.08.03:873][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset
+[2017.01.02-19.08.37:618][280]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.08.37:829][280]BlueprintEditorCompileResults: Info [1940.00] Compile of BlackHolePlayer successful! [in 210 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.08.42:950][487]BlueprintLog: New page: Compile BlackHolePlayer
+[2017.01.02-19.08.43:153][487]BlueprintEditorCompileResults: Info [1945.33] Compile of BlackHolePlayer successful! [in 202 ms] (/Game/Blackhole/Player/BlackHolePlayer.BlackHolePlayer)
+[2017.01.02-19.09.57:814][421]LogSavePackage: Save=178.13ms
+[2017.01.02-19.09.57:814][421]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/TopDownExampleMap94DAD39B494474007D0AB4B86853BD59.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.01.02-19.09.57:819][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.01.02-19.09.57:854][421]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.297
+[2017.01.02-19.09.57:957][421]LogSavePackage: Save=57.46ms
+[2017.01.02-19.09.57:957][421]LogSavePackage: Moving '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Saved/BlackHolePlayer12F95EC24BABA36A29F9CBB46E2BED0A.tmp' to '../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset'
+[2017.01.02-19.09.57:962][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/UnholyShadows/Documents/Unreal Projects/BlackHole/Content/Blackhole/Player/BlackHolePlayer.uasset
+[2017.01.02-19.10.04:997][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.01.02-19.10.05:153][822]LogCascade: Quitting Cascade. FXSystem=0x000001DA18AFE5C0
+[2017.01.02-19.10.05:262][822]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.02-19.10.05:263][822]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.02-19.10.05:620][823]Cmd: QUIT_EDITOR
+[2017.01.02-19.10.05:841][823]LogExit: Preparing to exit.
+[2017.01.02-19.10.07:211][823]LogExit: Editor shut down
+[2017.01.02-19.10.07:213][823]LogExit: Transaction tracking system shut down
+[2017.01.02-19.10.07:872][823]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.02-19.10.07:880][823]LogExit: Object subsystem successfully closed.
+[2017.01.02-19.10.07:913][823]LogD3D11RHI: Shutdown
+[2017.01.02-19.10.07:913][823]LogD3D11RHI: CleanupD3DDevice
+[2017.01.02-19.10.08:122][823]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module DistCurveEditor (218)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module Cascade (217)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module SequencerWidgets (215)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.01.02-19.10.08:137][823]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.01.02-19.10.08:143][823]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.01.02-19.10.08:144][823]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.01.02-19.10.08:145][823]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.01.02-19.10.08:326][823]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.01.02-19.10.08:327][823]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.01.02-19.10.08:327][823]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.01.02-19.10.08:327][823]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.01.02-19.10.08:327][823]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.01.02-19.10.08:327][823]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.01.02-19.10.08:328][823]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.01.02-19.10.08:328][823]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.01.02-19.10.08:329][823]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.01.02-19.10.08:330][823]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.01.02-19.10.08:330][823]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.01.02-19.10.08:330][823]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.01.02-19.10.08:330][823]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.01.02-19.10.08:330][823]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.01.02-19.10.08:330][823]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.01.02-19.10.08:374][823]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.01.02-19.10.08:375][823]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.01.02-19.10.08:376][823]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.01.02-19.10.08:377][823]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.01.02-19.10.08:377][823]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.01.02-19.10.08:378][823]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.01.02-19.10.08:379][823]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.01.02-19.10.08:379][823]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.01.02-19.10.08:379][823]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.01.02-19.10.08:379][823]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.01.02-19.10.08:388][823]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.01.02-19.10.08:388][823]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.01.02-19.10.08:388][823]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.01.02-19.10.08:389][823]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.01.02-19.10.08:389][823]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.01.02-19.10.08:389][823]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.01.02-19.10.08:389][823]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.01.02-19.10.08:390][823]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.01.02-19.10.08:627][823]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.01.02-19.10.08:627][823]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.01.02-19.10.08:628][823]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.01.02-19.10.08:629][823]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.01.02-19.10.08:633][823]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.01.02-19.10.08:642][823]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.01.02-19.10.08:643][823]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.01.02-19.10.08:743][823]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.01.02-19.10.08:743][823]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.01.02-19.10.08:743][823]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.01.02-19.10.08:743][823]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.01.02-19.10.08:743][823]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.01.02-19.10.08:744][823]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.01.02-19.10.08:744][823]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.01.02-19.10.08:744][823]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.01.02-19.10.08:744][823]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.01.02-19.10.08:744][823]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.01.02-19.10.08:744][823]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.01.02-19.10.08:745][823]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.01.02-19.10.08:745][823]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.01.02-19.10.08:745][823]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.01.02-19.10.08:745][823]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.01.02-19.10.08:745][823]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.01.02-19.10.08:746][823]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.01.02-19.10.08:757][823]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.01.02-19.10.08:757][823]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.01.02-19.10.08:757][823]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.01.02-19.10.08:757][823]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.01.02-19.10.08:757][823]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.01.02-19.10.08:757][823]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.01.02-19.10.08:766][823]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.01.02-19.10.09:002][823]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.01.02-19.10.09:002][823]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.01.02-19.10.09:002][823]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.01.02-19.10.09:002][823]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.01.02-19.10.09:083][823]LogDerivedDataCache: Shutdown
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.01.02-19.10.09:084][823]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.01.02-19.10.09:085][823]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.01.02-19.10.09:086][823]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.01.02-19.10.09:086][823]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.01.02-19.10.12:097][823]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.01.02-19.10.12:097][823]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.01.02-19.10.12:097][823]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.01.02-19.10.12:097][823]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.01.02-19.10.12:097][823]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.01.02-19.10.12:098][823]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.01.02-19.10.12:098][823]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.01.02-19.10.12:121][823]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.01.02-19.10.12:124][823]LogExit: Exiting.
+[2017.01.02-19.10.12:153][823]Log file closed, 01/02/17 11:10:12
